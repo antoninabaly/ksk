@@ -1,0 +1,345 @@
+/* ------ Specification ------ */
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 0;
+	letter-spacing: 0em;
+	margin: 0;
+	font-size: 14px;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+{
+	outline: none;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+.btn {
+	border-radius: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	background-color: #e84545;
+	padding: 12px 46px;
+}
+
+.btn:hover {
+	
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+
+/* ------ header ----- */
+.header{
+	padding: 10px;
+	height: 500px;
+	background: url(../img/main.jpg) no-repeat center center /cover;
+}
+
+.logo a img{
+	height: 88px;
+	width: 100px;
+}
+
+.menu{
+	font-size: 18px;
+	justify-content: flex-start;
+}
+.menu a{
+	margin-left: 40px;
+}
+.menu a:hover{
+	text-shadow: 0px 1px 0px #000;
+}
+
+.connect{
+	margin-top: 300px;
+	text-align: right;
+}
+/*
+.header__ss{
+	margin: 0 0 0 auto;
+	width: 216px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.3);
+}*/
+
+.soc a{
+	margin-left: 20px;
+	font-size: 20px;
+}
+.soc a:hover{
+	text-shadow: 0px 1px 0px #000;
+}
+.adress{
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+/* ----- ksk -----*/
+
+.ksk{
+	padding: 80px;
+}
+.ksk__title{
+	text-align: center;
+}
+
+.ksk__title_1{
+	font-size: 24px;
+}
+.ksk__title_2{
+	font-size: 36px;
+}
+.btn_tel{
+	display: block;
+	margin: 10px auto;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	background-color: #F95531;
+	font-size: 18px;
+}
+.btn_tel:hover{
+	text-shadow: 0px 0px 0px #000;
+	box-shadow:  0px 0px 5px #A93B23;
+}
+
+/* ----- demo -----*/
+
+.demo__title{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.demo__card{
+	position: relative;
+	margin: 0 0 60px;
+}
+
+.demo__img{
+	height: 350px;
+}
+
+.demo__img_1{
+	background: url(../img/vezda.jpg) center top no-repeat /cover;
+}
+.demo__img_2{
+	background: url(../img/kprog.jpg) center center no-repeat /cover;
+}
+.demo__img_3{
+	background: url(../img/ddet.jpg) center center no-repeat /cover;
+}
+.demo__img_4{
+	background: url(../img/fotoset.jpg) center top no-repeat /cover;
+}
+
+.demo__wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.0);
+	color: transparent;
+	
+}
+.demo__inntext{
+	font-family: Georgia, serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: none;
+	padding: 100px 40px 0;
+}
+.demo__wrap:hover{
+	transition: 0.3s;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+
+}
+
+
+/* ----- price -----*/
+.price{
+	padding: 80px 0;
+}
+.price__title{
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+
+.price__tbl{
+	margin: 10px auto;
+	width: 70%;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.price__tbl .col2{
+	text-align: right;
+}
+.price__tbl .col3, .price__tbl .col4{
+	text-align: center;
+}
+
+.price__tbl .abon{
+	height: 4em;
+}
+
+.price__tbl th{
+	font-family: 'Arial', sans-serif;
+	font-weight: 900;
+}
+
+.ttn{
+	text-transform: none;
+}
+
+.price__sert{
+	text-align: center;
+	margin: 20px auto;
+}
+
+.price__sert img{
+	height: 300px;
+}
+
+.price__tel{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 900;
+}
+.price__tel p{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+/* ----- footer -----*/
+
+.footer{
+	height: 180px;
+	padding: 40px 0;
+	background-color: #000;
+	color: #fff;
+}
+
+
+.footer_all{
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.footer__logo_w img{
+	width: 100px;
+}
+
+
+.footer__tel{
+	font-family: Georgia, serif;
+	font-weight: 300;
+}
+
+.btn_tel{
+	color: #000;
+}
+
+.footer__connect{
+	margin-top: 0;
+	/*width: 312px;*/
+}
+
+.soc{
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer__connect .soc a i{
+	color: #fff;
+}
+/*  ----- Media Queries ----- */
+
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {
+		
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	
+}
